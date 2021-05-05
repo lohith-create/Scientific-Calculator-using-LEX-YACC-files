@@ -1,0 +1,6 @@
+
+[linuxpert@fosslab ~]$ vi cal.l
+[linuxpert@fosslab ~]$ lex cal.l
+[linuxpert@fosslab ~]$ yacc -d cal.y
+[linuxpert@fosslab ~]$ cc lex.yy.c y.tab.c -ll -lm
+[linuxpert@fosslab ~]$ ./a.out
